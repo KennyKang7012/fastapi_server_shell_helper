@@ -3,11 +3,13 @@
         "shell_helper": {
             "command": "uv",
             "args": [
-                "--directory",
-                "/Users/kennykang/Desktop/VibeProj/shell_helper",
                 "run",
                 "server_shell_helper.py"
             ]
+        },
+        "shell_helper_sse": {
+            "url": "http://localhost:8000/sse",
+            "transport": "sse"
         }
     }
 }
