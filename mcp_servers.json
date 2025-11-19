@@ -1,7 +1,7 @@
 {
     "mcpServers": {
         "shell_helper": {
-            "command": "uv",
+            "command": "C:/Users/01019/.local/bin/uv",
             "args": [
                 "run",
                 "server_shell_helper.py"
